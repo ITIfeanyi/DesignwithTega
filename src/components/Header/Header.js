@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
