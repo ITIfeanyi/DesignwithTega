@@ -1,0 +1,148 @@
+.getStarted {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.getStartedBtn {
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-top: 1rem;
+  background-color: rgb(19, 16, 16);
+  color: white;
+}
+.gridContainer {
+}
+.gridBox {
+  width: 100%;
+}
+
+.gridBox img {
+  width: 100%;
+}
+.standard {
+  width: 96%;
+  margin: 1rem auto;
+}
+.standard h3 {
+  font-size: 1.3rem;
+  margin-top: 0.7rem;
+}
+.standard p {
+  margin-top: 0.7rem;
+}
+.description {
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.sub_description {
+  width: 94%;
+  margin: 0.8rem auto;
+}
+.view_projects {
+  padding: 1rem 0.5rem;
+}
+.view_projects small {
+  font-size: 13px;
+  color: #686464;
+}
+.view_projects p {
+  font-size: 1.2rem;
+}
+.view_projects button {
+  padding: 0.5rem 0.8rem;
+  border: 0;
+  border-radius: 1rem;
+  margin-top: 0.7rem;
+  outline: none;
+  transition: all 0.2s linear 0.1s;
+}
+.view_projects button:hover {
+  color: white;
+  background-color: rgb(92, 87, 87);
+}
+.people_reviews_section {
+  padding: 2rem 0.5rem;
+}
+.people_reviews {
+  text-align: center;
+  background-color: white;
+}
+.customer_review {
+  color: rgb(160, 159, 159);
+  font-size: 13px;
+  padding-bottom: 0.4rem;
+}
+.whatPeopleSay {
+  font-size: 1.3rem;
+  padding-bottom: 1.6rem;
+  font-weight: 600;
+}
+.whatPeopleSay_quote {
+  font-size: 1.5rem;
+  color: rgb(184, 181, 181);
+  padding-bottom: 0.5rem;
+}
+.whatPeopleSay_para {
+  width: 90%;
+  margin: 1.5rem auto;
+  font-size: 1rem;
+}
+.anonymous {
+  font-weight: 800;
+  padding: 1.3rem 0;
+}
+.design_project_container {
+  background-color: black;
+  color: white;
+  padding: 1.8rem 0;
+}
+.design_project {
+  width: 80%;
+  margin: 1rem auto;
+}
+.think_of_a_design {
+  color: rgb(92, 87, 87);
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 0.4rem;
+}
+.Craft_Design {
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding-bottom: 1.2rem;
+}
+
+.sendmessage {
+  color: white;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.footer {
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.footer_container {
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.footer_terms_container {
+  text-decoration: none;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 63%;
+  margin: 0.5rem auto;
+}
+.footer_terms_container a {
+  text-decoration: none;
+  color: black;
+}

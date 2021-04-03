@@ -14,7 +14,7 @@ li {
 .swiper-button-prev,
 .swiper-button-next {
   color: #000000;
-  font-size: 0.6rem;
+  display: none;
 }
 .swiper_img {
   width: 450px;
