@@ -1,0 +1,21 @@
+.swiper-container {
+  height: 220px;
+}
+li {
+  list-style: none;
+}
+.swiper-wrapper {
+  padding-inline-start: 0;
+}
+.swipper-pagination {
+  bottom: 0;
+  padding-bottom: 0px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000;
+  font-size: 0.6rem;
+}
+.swiper_img {
+  width: 450px;
+}
