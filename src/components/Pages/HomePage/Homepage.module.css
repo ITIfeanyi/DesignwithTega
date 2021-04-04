@@ -41,11 +41,19 @@
   width: 94%;
   margin: 0.8rem auto;
 }
+.customersFocus_img {
+  width: 40px;
+  padding: 1rem 0;
+}
+.description_img {
+  width: 100%;
+}
 .view_projects {
   padding: 1rem 0.5rem;
 }
 .view_projects small {
   font-size: 13px;
+  padding-bottom: 0.9rem;
   color: #686464;
 }
 .view_projects p {
@@ -99,9 +107,25 @@
   color: white;
   padding: 1.8rem 0;
 }
+.designImg_box {
+  width: 100%;
+}
+.designImg_box img {
+  width: 100%;
+}
+.designSlide {
+  position: absolute;
+  z-index: 10;
+  background-color: red;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .design_project {
   width: 80%;
-  margin: 1rem auto;
+  margin: 0rem auto;
 }
 .think_of_a_design {
   color: rgb(92, 87, 87);

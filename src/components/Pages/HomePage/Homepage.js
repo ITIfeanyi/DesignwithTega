@@ -4,7 +4,11 @@ import Swiper from "../../Swiper/SwiperBox";
 import styles from "./Homepage.module.css";
 
 import img from "../../../img/INTERIORS-T-768x768.png";
-
+import aim from "../../../img/aim.png";
+import home from "../../../img/home.png";
+import briefcase from "../../../img/briefcase.png";
+import certificate from "../../../img/certificate.png";
+import designImg from "../../../img/grid1.jpg";
 const Homepage = () => {
   useEffect(() => {
     document.title = "Homepage | Designing with Tega";
@@ -45,6 +49,13 @@ const Homepage = () => {
             <button>View Projects</button>
           </div>
           <div className={styles.view_projects}>
+            <div className={styles.customersFocus_img}>
+              <img
+                className={styles.description_img}
+                src={aim}
+                alt="customer's focus"
+              />
+            </div>
             <p>Customer Focus</p>
             <small>
               Customer choose us for the simplicity of communication and an
@@ -52,13 +63,28 @@ const Homepage = () => {
             </small>
           </div>
           <div className={styles.view_projects}>
+            <div className={styles.customersFocus_img}>
+              <img
+                className={styles.description_img}
+                src={briefcase}
+                alt="customer's focus"
+              />
+            </div>
             <p>Professionalism</p>
+
             <small>
               We develop a full cycle of project documentation: an outline
               sketch, a design project, working documentation.
             </small>
           </div>
           <div className={styles.view_projects}>
+            <div className={styles.customersFocus_img}>
+              <img
+                className={styles.description_img}
+                src={home}
+                alt="customer's focus"
+              />
+            </div>
             <p>Multi Experience</p>
             <small>
               We provide a wide range of services, we work in different styles,
@@ -66,6 +92,13 @@ const Homepage = () => {
             </small>
           </div>
           <div className={styles.view_projects}>
+            <div className={styles.customersFocus_img}>
+              <img
+                className={styles.description_img}
+                src={certificate}
+                alt="customer's focus"
+              />
+            </div>
             <p>Authors's Supervision</p>
             <small>
               We develop an attractive and convenient space form work and
@@ -96,8 +129,10 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+      <div className={styles.designImg_box}>
+        <img src={designImg} alt='img' />
+      </div>
       <section className={styles.design_project_container}>
-        {/* <img src={grid5} alt='img' /> */}
         <div className={styles.design_project}>
           <p className={styles.think_of_a_design}>
             Thinking of a design project?
